@@ -1,0 +1,17 @@
+PALABRAS EN CALMA — VERSIÓN ESTÁTICA PARA NETLIFY
+
+Archivos principales:
+- index.html
+- style.css
+- script.js
+- content.json
+- assets/hero.jpg
+
+PUBLICACIÓN EN NETLIFY:
+1. Descomprime el ZIP.
+2. Entra a Netlify y abre Add new site > Deploy manually.
+3. Arrastra la carpeta descomprimida (la que contiene directamente index.html).
+4. Espera a que termine la publicación.
+
+No necesita npm, compilación ni comandos de build. Las rutas internas funcionan mediante hash (#/ruta, #/calma, #/docente y #/modulo/ID), por lo que Netlify puede servirlas como sitio estático.
+El progreso, preferencias y estado se guardan en el navegador mediante localStorage. Si se abre en otro dispositivo/navegador, esos datos no se sincronizan automáticamente.

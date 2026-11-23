@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="OVA de Español para 6.º y 8.º grado: lecciones visuales, tranquilas y paso a paso." name="description"/>
+  <meta content="#eaf1e9" name="theme-color"/>
+  <title>
+   Palabras en Calma · Aprende Español a tu ritmo
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Ir al contenido
+  </a>
+  <header class="top">
+   <a class="brand" href="#/">
+    <span class="brand-icon">
+     🌿
+    </span>
+    <span>
+     Palabras en Calma
+     <small>
+      OVA de Español
+     </small>
+    </span>
+   </a>
+   <nav id="nav">
+    <a href="#/">
+     Inicio
+    </a>
+    <a href="#/ruta">
+     Mi ruta
+    </a>
+    <a href="#/calma">
+     Rincón de calma
+    </a>
+    <a href="#/docente">
+     Mi progreso
+    </a>
+   </nav>
+   <button class="outline" id="settingsBtn">
+    ⚙ Ajustes
+   </button>
+  </header>
+  <main class="container" id="main" tabindex="-1">
+   <div class="loading">
+    Cargando contenido…
+   </div>
+  </main>
+  <footer>
+   OVA de Español para estudiantes de 6.º y 8.º con TEA · Proyecto de grado
+  </footer>
+  <div class="companion" hidden="" id="companion">
+   <div class="bubble" hidden="" id="bubble">
+   </div>
+   <button aria-label="Compañero: tócame para un mensaje, arrástrame para moverme" id="companionBtn">
+    🦉
+   </button>
+  </div>
+  <div class="modal" hidden="" id="modal">
+   <section class="modal-card">
+    <button class="close" id="closeModal">
+     ✕
+    </button>
+    <h2>
+     Ajusta la página a ti
+    </h2>
+    <label>
+     Tamaño del texto
+     <select id="scale">
+      <option value="1">
+       A
+      </option>
+      <option value="1.15">
+       A+
+      </option>
+      <option value="1.3">
+       A++
+      </option>
+     </select>
+    </label>
+    <label>
+     <input id="contrast" type="checkbox"/>
+     Alto contraste
+    </label>
+    <label>
+     <input id="calmMotion" type="checkbox"/>
+     Sin movimiento
+    </label>
+    <label>
+     <input id="voice" type="checkbox"/>
+     Botones de lectura en voz
+    </label>
+   </section>
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
+
